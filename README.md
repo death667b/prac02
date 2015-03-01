@@ -11,7 +11,7 @@ This week's practical exercises aim to get you familiar with developing object-o
 
 ## Exercise 1: Footy scores ##
 
-This exercise will give you experience at developing a simple (concrete) _class_ in Java. In Australian Rules Football, teams earns _points_ by kicking _goals_, worth six points each, and _behinds_, worth one point each. Your job is to develop a class called [`FootyScore`](FootyAPI/index.html) which keeps track of the score earned by a particular team. This class needs to:
+This exercise will give you experience at developing a simple (concrete) _class_ in Java. In Australian Rules Football, teams earns _points_ by kicking _goals_, worth six points each, and _behinds_, worth one point each. Your job is to create a class called [`FootyScore`](FootyAPI/index.html) (in a package called `footyAnswers`) which keeps track of the score earned by a particular team. This class needs to:
 
 * declare a private data structure sufficient to keep track of the team's score;
 * declare a parameterless public method called `getPoints` that returns the team's total score in points;
@@ -20,12 +20,9 @@ This exercise will give you experience at developing a simple (concrete) _class_
 * declare a parameterless public method called `sayScore` that returns a character string representing the way Australian Football League commentators traditionally say AFL scores, as three numbers, consisting of the number of goals kicked, the number of behinds kicked, and the total number of points earned, in that order; and
 * declare a predicate (boolean-valued function) called `inFrontOf` which accepts a `FootyScore` object as its parameter and returns true if and only if (iff) this team's score exceeds that of the team provided as an argument.
 
-To help you assess your solution the file `FootyTester.java` contains a 'main'
-program that simulates a (rather low scoring) AFL match between traditional rivals
-Collingwood and Richmond. It prints the breathless commentary of a typically rabid AFL
-announcer. If your solution works correctly, the test program will print the following
-commentary on the console. Note that your `sayScore` method should return the three
-numbers separated by a comma and a space.
+To help you assess your solution the file `FootyTester.java` contains a 'main' program that simulates a (rather low scoring) AFL match between traditional rivals
+Collingwood and Richmond. It prints the breathless commentary of a typically rabid AFL announcer. If your solution works correctly, the test program will print the following
+commentary on the console. Note that your `sayScore` method should return the three numbers separated by a comma and a space.
 
     At the end of the first quarter, it's Collingwood, 0, 2, 2 and Richmond 1, 0, 6. 
     Richmond lead by 4 points!
