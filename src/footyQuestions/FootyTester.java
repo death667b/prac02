@@ -18,7 +18,7 @@ public class FootyTester {
 		FootyScore Collingwood = new FootyScore();
 		FootyScore Richmond = new FootyScore();
 		
-		/* First quarter */
+		/* First quarter pp*/
 		Collingwood.kickBehind();
 		Richmond.kickGoal();
 		Collingwood.kickBehind();
