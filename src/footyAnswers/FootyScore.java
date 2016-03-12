@@ -29,19 +29,31 @@ public class FootyScore {
 	}
 	
 	public String sayScore(){
-		return "test";
+		String returnString = "";
+		
+		returnString = numberGoals + ", ";
+		returnString += numberBehinds + ", ";
+		returnString += this.getPoints();
+		
+		return returnString;
 	}
 	
 	public int getPoints(){
 		int returnPoints = 0;
 		
 		returnPoints = numberBehinds * pointsPerBehind;
-		returnPoints = returnPoints + (numberGoals * pointsPerGoal);
+		returnPoints += numberGoals * pointsPerGoal;
 		
 		return returnPoints;
 	}
 	
-	public Boolean inFrontOf(){
-		return true;
+	public Boolean inFrontOf(FootyScore otherPlayer){
+		Boolean isWinning = false;
+		
+		if (this.getPoints() > otherPlayer.getPoints()){
+			isWinning = true;
+		}
+		
+		return isWinning;
 	}
 }
