@@ -14,7 +14,7 @@ public class FootyTester {
 		/* Declare a "screen" object for displaying test results */
 		PrintWriter screen = new PrintWriter(System.out, true);
 		
-		/* Introduce the two teams trtr*/
+		/* Introduce the two teams */
 		FootyScore Collingwood = new FootyScore();
 		FootyScore Richmond = new FootyScore();
 		
