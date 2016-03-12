@@ -19,14 +19,17 @@ public class AgentTester {
 		PrintWriter screen = new PrintWriter(System.out, true);
 		
 		/* Create some secret agent objects */
-		SecretAgent Bond = new SecretAgent("James Bond", "007", "Ejector seat");
+		/*******************************************************************/
+		/*SecretAgent Bond = new SecretAgent("James Bond", "007", "Ejector seat");
 		SecretAgent Smart = new SecretAgent("Maxwell Smart", "Agent 86", "Shoephone");
-		SecretAgent Joe90 = new SecretAgent("Joe McClaine", "Joe 90", "Special glasses");
+		SecretAgent Joe90 = new SecretAgent("Joe McClaine", "Joe 90", "Special glasses");*/
 		
 		/* Do a few simple test to ensure that the agent objects
 		 * maintain their own data
 		 */
-		screen.println(" 1. To the rest of the world Max is known as a meek " +
+		
+		/*********************************************************/
+		/*screen.println(" 1. To the rest of the world Max is known as a meek " +
 				"greeting card salesman [Maxwell Smart]: " +
 				Smart.currentIdentity());
 		Smart.switchIdentity();
@@ -35,7 +38,7 @@ public class AgentTester {
 		screen.println(" 3. James Bond's favourite gadget was supplied by Q branch " +
 				"[Ejector seat]: " + Bond.getGadget());
 		screen.println(" 4. But Joe 90's main weapon was made by his (adopted) " +
-				"father [Special glasses]: " + Joe90.getGadget());
+				"father [Special glasses]: " + Joe90.getGadget());*/
 			
 	}
 

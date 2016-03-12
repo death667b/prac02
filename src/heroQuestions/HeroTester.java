@@ -1,9 +1,9 @@
 package heroQuestions;
 
 import java.io.*;
-import heroAnswers.Human;
-import heroAnswers.SuperHuman;
-import heroAnswers.EnhancedHuman;
+//import heroAnswers.Human;
+//import heroAnswers.SuperHuman;
+//import heroAnswers.EnhancedHuman;
 import static heroQuestions.SuperPower.*;
 
 /* 
@@ -21,13 +21,13 @@ public class HeroTester {
 		/* Declare some 1940s and 1950s superheroes of interest */
 
 		/* Batman and the Black Canary are mere mortals */
-		Human Batman = 
+		/*Human Batman = 
 			new Human("Bruce Wayne", "Batman");
 		Human BlackCanary = 
-			new Human("Dinah Drake", "Black Canary");
+			new Human("Dinah Drake", "Black Canary");*/
 
 		/* Superman and Wonder Woman are superhumans */
-		SuperHuman WonderWoman = 
+		/*SuperHuman WonderWoman = 
 			new SuperHuman("Wonder Woman", 
 					"Diana Prince",
 					new SuperPower[]{SuperStrength,
@@ -39,11 +39,11 @@ public class HeroTester {
 					SuperStrength,
 					XRayVision,
 					SuperSpeed,
-					Invulnerability});
+					Invulnerability});*/
 
 		/* Captain Marvel and Green Lantern are humans who
 		 * acquire their powers temporarily */
-		EnhancedHuman CaptainMarvel = 
+		/*EnhancedHuman CaptainMarvel = 
 			new EnhancedHuman("Billy Batson",
 					"Captain Marvel",
 					new SuperPower[] {Flight,
@@ -55,10 +55,10 @@ public class HeroTester {
 					new SuperPower[] {Flight,
 					SuperStrength,
 					SuperSpeed,
-					Invulnerability});
+					Invulnerability});*/
 
 		/* Let's test the simplest kind of superheroes, mortals */
-		screen.println(" 1. In his normal identity Batman has no " +
+		/*screen.println(" 1. In his normal identity Batman has no " +
 				"superpowers [Bruce Wayne, 0]: " + 
 				Batman.currentIdentity() + ", " +
 				Batman.totalPower());
@@ -73,10 +73,10 @@ public class HeroTester {
 		screen.println(" 4. Can Batman fly when wearing his cape? " +
 				"[No]: " +
 				(Batman.hasPower(Flight) ? "Yes" : "No"));
-		screen.println();
+		screen.println();*/
 
 		/* Now let's try enhanced humans */
-		screen.println(" 5. As a mortal Captain Marvel is " +
+		/*screen.println(" 5. As a mortal Captain Marvel is " +
 				"meek and has no powers [Billy Batson, 0]: " + 
 				CaptainMarvel.currentIdentity() + ", " +
 				CaptainMarvel.totalPower());
@@ -105,10 +105,10 @@ public class HeroTester {
 				"every day he changes back [Hal Jordan, 0]: " +
 				GreenLantern.currentIdentity() + ", " +
 		        GreenLantern.totalPower());
-		screen.println();
+		screen.println();*/
 		
 		/* Finally, let's try superhumans */
-		screen.println("12. When he first arrived on Earth, Superman already " +
+		/*screen.println("12. When he first arrived on Earth, Superman already " +
 				"had incredible powers [Superman, 385]: " + 
 				Superman.currentIdentity() + ", " +
 		        Superman.totalPower());
@@ -132,7 +132,7 @@ public class HeroTester {
 		Superman.acquirePowers(new SuperPower[] {Invulnerability, SuperStrength});
 		screen.println("17. Fortunately, when the kryptonite is removed " +
 				"Superman gets his original powers back [385]: " +
-				Superman.totalPower());
+				Superman.totalPower());*/
 	}
 
 }
