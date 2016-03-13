@@ -67,6 +67,12 @@ public class HeroTester {
 				"has no powers [Batman, 0]: " +
 				Batman.currentIdentity() + ", " +
 				Batman.totalPower());
+		Batman.switchIdentity();
+		screen.println(" 2b. Retesting the switch [Bruce Waybe]: " + 
+				Batman.currentIdentity());
+		Batman.switchIdentity();
+		screen.println(" 2c. Retesting, switching back [Batman]: " + 
+				Batman.currentIdentity());
 		screen.println(" 3. Batman's change of identity shouldn't " +
 				"alter the Black Canary's identity [Dinah Drake]: " + 
 				BlackCanary.currentIdentity());

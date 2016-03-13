@@ -4,13 +4,15 @@ import heroQuestions.SuperPower;
 
 public abstract class SuperHero implements Hero {
 
-	protected static String trueIdentity;
-	protected static String alterEgo;
+	private String trueIdentity;
+	private String alterEgo;
 	private String activeIdentity;
 	
 	public SuperHero(String trueIdentity, String alterEgo){
 		this.trueIdentity = trueIdentity;
 		this.alterEgo = alterEgo;
+		
+		activeIdentity = trueIdentity;
 	}
 	
 	@Override
