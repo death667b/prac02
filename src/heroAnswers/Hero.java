@@ -7,6 +7,16 @@ package heroAnswers;
  *
  */
 public interface Hero { 
+	
+	/**
+	 * Returns the hero's currently identity in a printable format
+	 * 
+	 * @return The hero's current identity
+	 */
 	public String currentIdentity();
+	
+	/**
+	 * Switches the hero's current identity
+	 */
 	public void switchIdentity();
 }
