@@ -79,6 +79,9 @@ public class HeroTester {
 		screen.println(" 4. Can Batman fly when wearing his cape? " +
 				"[No]: " +
 				(Batman.hasPower(Flight) ? "Yes" : "No"));
+		screen.println(" 4b. Can BlackCanary fly at all? " +
+				"[No]: " +
+				(BlackCanary.hasPower(Flight) ? "Yes" : "No"));
 		screen.println();
 
 		/* Now let's try enhanced humans */
