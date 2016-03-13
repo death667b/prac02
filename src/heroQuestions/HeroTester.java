@@ -3,7 +3,7 @@ package heroQuestions;
 import java.io.*;
 import heroAnswers.Human;
 //import heroAnswers.SuperHuman;
-//import heroAnswers.EnhancedHuman;
+import heroAnswers.EnhancedHuman;
 import static heroQuestions.SuperPower.*;
 
 /* 
@@ -43,7 +43,7 @@ public class HeroTester {
 
 		/* Captain Marvel and Green Lantern are humans who
 		 * acquire their powers temporarily */
-		/*EnhancedHuman CaptainMarvel = 
+		EnhancedHuman CaptainMarvel = 
 			new EnhancedHuman("Billy Batson",
 					"Captain Marvel",
 					new SuperPower[] {Flight,
@@ -55,7 +55,7 @@ public class HeroTester {
 					new SuperPower[] {Flight,
 					SuperStrength,
 					SuperSpeed,
-					Invulnerability});*/
+					Invulnerability});
 
 		/* Let's test the simplest kind of superheroes, mortals */
 		screen.println(" 1. In his normal identity Batman has no " +
@@ -85,7 +85,7 @@ public class HeroTester {
 		screen.println();
 
 		/* Now let's try enhanced humans */
-		/*screen.println(" 5. As a mortal Captain Marvel is " +
+		screen.println(" 5. As a mortal Captain Marvel is " +
 				"meek and has no powers [Billy Batson, 0]: " + 
 				CaptainMarvel.currentIdentity() + ", " +
 				CaptainMarvel.totalPower());
@@ -114,7 +114,7 @@ public class HeroTester {
 				"every day he changes back [Hal Jordan, 0]: " +
 				GreenLantern.currentIdentity() + ", " +
 		        GreenLantern.totalPower());
-		screen.println();*/
+		screen.println();
 		
 		/* Finally, let's try superhumans */
 		/*screen.println("12. When he first arrived on Earth, Superman already " +
