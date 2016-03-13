@@ -2,7 +2,7 @@ package heroQuestions;
 
 import java.io.*;
 import heroAnswers.Human;
-//import heroAnswers.SuperHuman;
+import heroAnswers.SuperHuman;
 import heroAnswers.EnhancedHuman;
 import static heroQuestions.SuperPower.*;
 
@@ -27,7 +27,7 @@ public class HeroTester {
 			new Human("Dinah Drake", "Black Canary");
 
 		/* Superman and Wonder Woman are superhumans */
-		/*SuperHuman WonderWoman = 
+		SuperHuman WonderWoman = 
 			new SuperHuman("Wonder Woman", 
 					"Diana Prince",
 					new SuperPower[]{SuperStrength,
@@ -39,7 +39,7 @@ public class HeroTester {
 					SuperStrength,
 					XRayVision,
 					SuperSpeed,
-					Invulnerability});*/
+					Invulnerability});
 
 		/* Captain Marvel and Green Lantern are humans who
 		 * acquire their powers temporarily */
@@ -117,7 +117,7 @@ public class HeroTester {
 		screen.println();
 		
 		/* Finally, let's try superhumans */
-		/*screen.println("12. When he first arrived on Earth, Superman already " +
+		screen.println("12. When he first arrived on Earth, Superman already " +
 				"had incredible powers [Superman, 385]: " + 
 				Superman.currentIdentity() + ", " +
 		        Superman.totalPower());
@@ -141,7 +141,7 @@ public class HeroTester {
 		Superman.acquirePowers(new SuperPower[] {Invulnerability, SuperStrength});
 		screen.println("17. Fortunately, when the kryptonite is removed " +
 				"Superman gets his original powers back [385]: " +
-				Superman.totalPower());*/
+				Superman.totalPower());
 	}
 
 }
