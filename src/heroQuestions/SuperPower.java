@@ -36,6 +36,8 @@ public enum SuperPower {
 	/**
 	 * Returns the (subjective) value of this power to the
 	 * hero who possesses it.
+	 * 
+	 * @return Returns a numerical value of a single power
 	 */
 	public int getValue() {
 		return value_of_power;

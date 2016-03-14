@@ -11,7 +11,7 @@ import heroAnswers.SecretAgent;
 public class AgentTester {
 
 	/**
-	 * @param args
+	 * @param args - Accepts an array of text
 	 */
 	public static void main(String[] args) {
 		
