@@ -39,12 +39,14 @@ public class SuperHuman extends SuperHero {
 
 	@Override
 	public boolean hasPower(SuperPower queriedPower) {
-		for (SuperPower findPower: currentPowers){
+		/*for (SuperPower findPower: currentPowers){
 			if (findPower.equals(queriedPower)){
 				return true;
 			}
 		}
-		return false;
+		return false;*/
+		
+		return currentPowers.contains(queriedPower);
 	}
 
 	@Override
